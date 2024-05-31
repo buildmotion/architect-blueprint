@@ -149,6 +149,24 @@ Design: Once the problem is well-understood, software design involves planning h
 
 ---
 
+#### Design - C4 Model Context Level 1
+
+![width:920px](./assets/c4-context-L1.png)
+
+---
+
+#### Design - C4 Model Container Level 2
+
+![width:920px](./assets/c4-container-L2.png)
+
+---
+
+#### Design - C4 Model Component Level 3
+
+![width:920px](./assets/c4-components-L3.png)
+
+---
+
 ## Essentials
 <!-- Prompt for graphic: An image showing various development tools and materials, represented by icons (e.g., a toolbox, servers for hosting environments, and CI/CD pipelines), emphasizing their roles in the development process. -->
 
@@ -752,6 +770,7 @@ Wrap up with a story about the long-term benefits of adhering to SOLID principle
 - C4 Models
   - [c4model.com](https://c4model.com/)
   - [Visualizing software architecture with the C4 model](https://www.youtube.com/watch?v=x2-rSnhpw0g&t=3s) - Simon Brown, Agile on the Beach 2019
+- [Object Thinking](https://www.amazon.com/Object-Thinking-Developer-Reference-David/dp/0735619654)
 - Domain Storytelling
   - [Domain Storytelling](https://domainstorytelling.org/)
 - Design Patterns
