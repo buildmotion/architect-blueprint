@@ -15,8 +15,6 @@ class:
 ## Building Scalable and Maintainable Web Applications
 
 <!-- Speaker note: 
-Start with a personal story a challenging project. Set the stage for why scalable and maintainable architecture is crucial.
-
 - The technology stack does not matter – you can write a good or a bad application in any technology stack!
 - Financial Tech, Medical, Messaging Platforms, Medical Device, Travel, Attendee Registration, Destination Travel, Ad Platform, Payment Systems, etc.
 
@@ -30,7 +28,7 @@ Start with a personal story a challenging project. Set the stage for why scalabl
 - Matt Vaughn, Application & Solutions Architect
 - [AngularArchitecture.com](https://angulararchitecture.com)
 - [GitHub: buildmotion](https://github.com/buildmotion)
-- [X: @AngularArch](https://twitter.com/AngularArch)
+- [X/Twitter: @AngularArch](https://twitter.com/AngularArch)
 - Presentation: [https://bit.ly/architect-blueprint](https://bit.ly/architect-blueprint)
 
 ![width:340px](./assets/bitly-qrcode.png)
@@ -47,10 +45,7 @@ Start with a personal story a challenging project. Set the stage for why scalabl
    - Packages and Frameworks Overview
 
 <!-- 
-Speaker note: Briefly outline the main points of the session. Emphasize the journey from initial challenges to mastering scalable architecture. 
-
 “The plan is to go in there and win; everybody has a plan until they get hit. Then, like a rat, they stop in fear and freeze.”
-
 -->
 
 ---
@@ -58,8 +53,6 @@ Speaker note: Briefly outline the main points of the session. Emphasize the jour
 # Plan?
 
 ![width:640px](./assets/mike-tyson.jpeg)
-
-
 
 <!-- Notes:
 Mike Tyson first mentioned this quote before his 1987 fight against Tyrell Biggs. The context was in response to a reporter’s question about whether he was worried about his opponents’ strategies.. – Mike Tyson -->
@@ -490,19 +483,26 @@ Speaker note: Explain the pros and cons of each approach with anecdotes from rea
 
 <!-- Section 4: Advanced Code Generation Techniques -->
 
-# Advanced Code Generation Techniques
+# Code Generation Techniques
 
 - Introduction to Code Generation
 - Tools for Code Generation: Nx, Yeoman
 - Automating Boilerplate Code Production
-- Examples and Demonstrations
-<!-- Speaker note: Introduce this section with a story about how code generation can save time and reduce errors, transforming development workflows. -->
+
+<!-- Speaker note: 
+Introduce this section with a story about how code generation can save time and reduce errors, transforming development workflows.
+
+- convention, standards; repeatable 
+- productivity/velocity
+- input(s), templates, outputs
+-->
 
 ---
 
 ## Introduction to Code Generation
-   - Benefits
-   - Common Use Cases
+
+- Benefits
+- Common Use Cases
 
 <!-- Speaker note: Explain how code generation acts as a productivity multiplier, similar to using power tools in construction. -->
 
@@ -741,18 +741,40 @@ Wrap up with a story about the long-term benefits of adhering to SOLID principle
 
 # Additional Content for Research
 
+- Architecture
+  - Analysis and Design
+    - [Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development](https://www.amazon.com/Applying-UML-Patterns-Introduction-Object-Oriented/dp/0131489062)
+  - CLEAN Architecture
+    - [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) - Robert C. Martin
+    - [Clean Architecture: A Craftsman's Guide to Software Structure and Design](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164) - Robert C. Martin
+  - HEXagonal Architecture
+    - https://alistair.cockburn.us/hexagonal-architecture/
 - C4 Models
   - [c4model.com](https://c4model.com/)
   - [Visualizing software architecture with the C4 model](https://www.youtube.com/watch?v=x2-rSnhpw0g&t=3s) - Simon Brown, Agile on the Beach 2019
+- Domain Storytelling
+  - [Domain Storytelling](https://domainstorytelling.org/)
+- Design Patterns
+  - Head First Design Patterns
+    - [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124)
+  - Enterprise Patterns
+    - [Patterns of Enterprise Application Architecture](https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
+- SOLID Principles
+  - [SOLID Principles](https://en.wikipedia.org/wiki/SOLID)
+- Code Generation
+  - Nx: [Nx.dev](https://nx.dev/)
+    - Topic: Generators
+  - [ESJ](https://ejs.co/)
+- Automation
+  - Github Actions: [GitHub Actions]( https://docs.github.com/en/actions)
+  - Nx Executors
+- Crosscutting Concerns
+  - [Angular Cross-Cutting Concerns](https://dev.to/buildmotion/cross-cutting-concerns-in-angular-4b5a)
 
-   - CLEAN Architecture: Uncle Bob's resources, case studies
-   - Tools and Automation: Trends in CI/CD, large-scale project automation
-   - Frameworks: Performance comparisons, real-world examples
    - UI Control Suites: Evaluations, in-depth analysis
    - Logging and Monitoring: Analysis of tools and strategies
    - Performance and Analytical Tools: In-depth reviews and comparisons
    - Profiling Tools: Optimizing performance
-   - Code Generation: Tutorials on Nx, Yeoman
    - SOLID Principles: Detailed articles, examples, and explanations
 
 <!-- End of Presentation -->
