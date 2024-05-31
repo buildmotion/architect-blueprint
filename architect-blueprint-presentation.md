@@ -27,15 +27,13 @@ Start with a personal story a challenging project. Set the stage for why scalabl
 
 ---
 
-## **About Me**
-
-![width:340px](./assets/office.png)
-
 - Matt Vaughn, Application & Solutions Architect
 - [AngularArchitecture.com](https://angulararchitecture.com)
 - [GitHub: buildmotion](https://github.com/buildmotion)
 - [X: @AngularArch](https://twitter.com/AngularArch)
-- Presentation: [https://bit.ly/monorepos-unleashed](https://bit.ly/monorepos-unleashed)
+- Presentation: [https://bit.ly/architect-blueprint](https://bit.ly/architect-blueprint)
+
+![width:340px](./assets/bitly-qrcode.png)
 
 ---
 
