@@ -151,19 +151,39 @@ Design: Once the problem is well-understood, software design involves planning h
 
 #### Design - C4 Model Context Level 1
 
-![width:920px](./assets/c4-context-L1.png)
+![width:633px](./assets/c4-context-L1.png)
+
+- The Context model in C4 is the highest level of abstraction and describes the system's environment and its interactions with external systems.
+- It shows the system's boundaries and the relationships between the system and its external entities.
+- The Context model is useful for understanding the system's scope and its interactions with external systems.
 
 ---
 
 #### Design - C4 Model Container Level 2
 
-![width:920px](./assets/c4-container-L2.png)
+![width:633px](./assets/c4-container-L2.png)
+
+- The Container model in C4 describes the high-level architecture of the system, focusing on the containers that make up the system.
+- Containers are runtime instances that host code or data, such as applications, databases, or services.
+- The Container model shows how the system is decomposed into containers and how they interact with each other.
 
 ---
 
 #### Design - C4 Model Component Level 3
 
-![width:920px](./assets/c4-components-L3.png)
+![width:633px](./assets/c4-components-L3.png)
+
+- The Component model in C4 describes the internal structure of a container, showing the components that make up the container.
+- Components are the building blocks of the system, representing the major parts of the codebase.
+- The Component model helps developers understand the internal structure of a container and how components interact with each other.
+
+---
+
+#### Design - C4 Model(s) Level 4
+
+- The Code model in C4 describes the detailed design of a component, showing the classes, interfaces, and relationships within the component.
+- The Code model is the most detailed level of the C4 model and provides a blueprint for implementing the component.
+- The Code model helps developers understand the internal structure of a component and how classes and interfaces interact to implement the component's functionality.
 
 ---
 
