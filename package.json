@@ -1,0 +1,21 @@
+{
+  "name": "architect-blueprint",
+  "version": "1.0.0",
+  "description": "Use to create presentation using markdown.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "html": "marp architect-blueprint-presentation.md --output architect-blueprint-presentation.html",
+    "pdf": "marp architect-blueprint-presentation.md --pdf --allow-local-files --output \"architect-blueprint-presentation.pdf\""
+  },
+  "keywords": [
+    "presentation",
+    "marp-cli",
+    "markdown"
+  ],
+  "author": "Matt Vaughn",
+  "license": "ISC",
+  "dependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
